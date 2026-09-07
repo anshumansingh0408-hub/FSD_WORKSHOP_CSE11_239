@@ -8,7 +8,7 @@ const app = http.createServer((req, res) => {
     const url = req.url;
     const method = req.method;
 
-    // GET /msg
+   
     if (url === "/msg" && method === "GET") {
 
         res.statusCode = 200;
